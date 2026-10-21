@@ -1,0 +1,17 @@
+/* ===== ระบบเบิกค่าเดินทาง: หน้าแนวตั้ง/แนวนอน ===== */
+.page.l{width:297mm;height:210mm;padding:12mm 15mm;font-size:15pt}
+.page.att{padding:0}.att img{width:100%;height:100%;object-fit:contain;display:block}
+.page table.ex td,.page table.ex th{font-size:13pt;padding:.8mm 1.5mm}.ex td:nth-child(n+3){text-align:right}
+.page .ex td:nth-child(1),.page .ex td:nth-child(2){text-align:left;font-weight:400;white-space:nowrap;overflow:hidden;max-width:95mm}.ex tr.sum td{font-weight:700}
+.sg4,.sg3{display:grid;gap:4mm;margin-top:3mm;text-align:center;font-size:14pt}.sg4{grid-template-columns:repeat(4,1fr)}.sg3{grid-template-columns:repeat(2,1fr);margin-top:10mm}
+.pv{margin-bottom:12px;background:#fff;box-shadow:var(--shadow)}
+@page portrait{size:A4 portrait;margin:0}@page land{size:A4 landscape;margin:0}
+@media print{#printRoot .page{break-after:page;box-shadow:none}#printRoot .page:last-child{break-after:auto}#printRoot .page.p{page:portrait}#printRoot .page.l{page:land}}
+.hd{display:flex;justify-content:space-between;font-size:13pt;line-height:1.2}
+.page.f8{padding:10mm 14mm;font-size:15pt}.page.f8 p{margin:0 0 1.8mm}.page.l.f8{padding:9mm 15mm}
+.page .u{border-bottom:1px dotted #000;padding:0 1mm}
+.cbx{display:inline-block;width:3.6mm;height:3.6mm;border:.3mm solid #000;vertical-align:-.5mm;text-align:center;line-height:3.4mm;font-size:11pt;margin:0 1mm}.cbx.r{border-radius:50%}.cbx.on{background:#000;box-shadow:inset 0 0 0 .7mm #fff}
+.page .fr{display:flex;justify-content:space-between;gap:4mm}.page .cm{font-size:12.5pt;line-height:1.1;text-align:justify}
+.page .bx{display:grid;grid-template-columns:1fr 1fr;border:.3mm solid #000}.page .bx>div{padding:2mm 3mm;text-align:center}.page .bx>div+div{border-left:.3mm solid #000}
+.page table.tb td,.page table.tb th{font-size:13pt;padding:1mm}.page table.tb td:first-child{font-weight:400;text-align:center}
+.page.mm{padding:10mm 16mm 8mm 24mm}.page.mm p{margin:0 0 1.2mm}.page.mm .t1{margin-bottom:2mm}
